@@ -1,5 +1,6 @@
 
-from core.utils import class_type, validate_mask
+from core.output_string import format_broadcast_address, format_classful_status, format_input_ip, format_network_address, format_subnet_mask
+from core.utils import class_type, network_investigation, validate_mask
 
 
 def main():
